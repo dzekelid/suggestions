@@ -8,11 +8,38 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-
 x-kinRank: "7"
 x-alexaRank: "7271"
 tags: Suggestions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/logmein/apis.md
 specificationVersion: "0.14"
 apis:
+- name: GoToAssist Remote Support - Get Tickets
+  x-api-slug: get
+  description: "Retrieves a query-able set of tickets for a specific partner system.\n\n
+    \                                                        \nRequest Parameters\n
+    \                         \n    field      data type      description    \n    userToken
+    \     string      The token identifying and authenticating the user in the partner
+    system that this object is being created on behalf of this user.    \n\n\nQuery
+    Parameters (* Optional)\n\n    field      data type      description    \n    q
+    *      string      A query string used to search for objects in the partner system.
+    (It is up to the partner system to determine how the query string is matched.
+    Match against fields like: ticket title, ticket body, requester name, ticket ID,
+    ticket comments, tags, etc. Ideally the matching should be performed using a \u2018contains\u2019
+    type operation and in a case-insensitive way.)                                         \n
+    \   limit *      integer      The maximum number of records to be fetched. Default
+    value is 10. Suggested value is less than or equal to 10 for optimal performance.
+    \                                        \n    offset *      number      Zero
+    based offset for the first record to return. Default value is 0."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
+  humanURL: http://www.LogMeInInc.com
+  baseURL: https://api.getgo.com//G2A/rest/v1
+  tags: SaaS, Technology, Enterprise, Voice, Videoconferencing, Audio, Webinars, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/logmein/get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/logmein/get-openapi.md
 - name: GoToAssist Remote Support - Get Tickets
   x-api-slug: get
   description: "Retrieves a query-able set of tickets for a specific partner system.\n\n

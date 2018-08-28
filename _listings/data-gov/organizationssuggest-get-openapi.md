@@ -73,6 +73,102 @@ paths:
       tags:
       - Organizations
       - Suggest
+  /reuses/suggest/:
+    get:
+      summary: Get Reuses Suggest
+      description: Suggest reuses
+      operationId: getReusesSuggest
+      x-api-path-slug: reusessuggest-get
+      parameters:
+      - in: query
+        name: q
+        description: The string to autocomplete/suggest
+      - in: query
+        name: size
+        description: The amount of suggestion to fetch
+      responses:
+        200:
+          description: OK
+      tags:
+      - Reuses
+      - Suggest
+  /spatial/zones/suggest:
+    get:
+      summary: Get Spatial Zones Suggest
+      description: Suggest geospatial zones
+      operationId: getSpatialZonesSuggest
+      x-api-path-slug: spatialzonessuggest-get
+      parameters:
+      - in: query
+        name: q
+        description: The string to autocomplete/suggest
+      - in: query
+        name: size
+        description: The amount of suggestion to fetch
+      responses:
+        200:
+          description: OK
+      tags:
+      - Spatial
+      - Zones
+      - Suggest
+  /tags/suggest/:
+    get:
+      summary: Get Tags Suggest
+      description: Suggest tags
+      operationId: getTagsSuggest
+      x-api-path-slug: tagssuggest-get
+      parameters:
+      - in: query
+        name: q
+        description: The string to autocomplete/suggest
+      - in: query
+        name: size
+        description: The amount of suggestion to fetch
+      responses:
+        200:
+          description: OK
+      tags:
+      - Tags
+      - Suggest
+  /territory/suggest/:
+    get:
+      summary: Get Territory Suggest
+      description: ""
+      operationId: getTerritorySuggest
+      x-api-path-slug: territorysuggest-get
+      parameters:
+      - in: query
+        name: q
+        description: The string to autocomplete/suggest
+      - in: query
+        name: size
+        description: The maximum result size
+      responses:
+        200:
+          description: OK
+      tags:
+      - Territory
+      - Suggest
+  /users/suggest/:
+    get:
+      summary: Get Users Suggest
+      description: Suggest users
+      operationId: getUsersSuggest
+      x-api-path-slug: userssuggest-get
+      parameters:
+      - in: query
+        name: q
+        description: The string to autocomplete/suggest
+      - in: query
+        name: size
+        description: The amount of suggestion to fetch
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - Suggest
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

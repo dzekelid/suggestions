@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Suggestions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
 apis:
@@ -84,6 +84,42 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/dezrez/apitagsuggest-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/dezrez/apitagsuggest-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Get tag suggestions for value
+  x-api-slug: apitagsuggest-get
+  description: Get tag suggestions for value.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/dezrez/apitagsuggest-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/dezrez/apitagsuggest-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Get feature suggestions for value
+  x-api-slug: apifeaturesuggest-get
+  description: Get feature suggestions for value.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/dezrez/apifeaturesuggest-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/dezrez/apifeaturesuggest-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Get enum suggestions for value
+  x-api-slug: apienumsuggesttypenamesystemname-get
+  description: Get enum suggestions for value.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/dezrez/apienumsuggesttypenamesystemname-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/dezrez/apienumsuggesttypenamesystemname-get-openapi.md
 x-common:
 - type: x-github
   url: https://github.com/dezrez

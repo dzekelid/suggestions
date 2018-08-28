@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Suggestions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/data-gov/apis.md
 specificationVersion: "0.14"
 apis:
@@ -56,6 +56,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/data-gov/organizationssuggest-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/data-gov/organizationssuggest-get-openapi.md
+- name: Data.gov API - Get Reuses Suggest
+  x-api-slug: reusessuggest-get
+  description: Suggest reuses
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/data-gov/reusessuggest-get-openapi.md
 - name: Data.gov API - Get Spatial Zones Suggest
   x-api-slug: spatialzonessuggest-get
   description: Suggest geospatial zones
@@ -82,6 +93,117 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/data-gov/tagssuggest-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/data-gov/tagssuggest-get-openapi.md
+- name: Data.gov API - Get Territory Suggest
+  x-api-slug: territorysuggest-get
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/data-gov/territorysuggest-get-openapi.md
+- name: Data.gov API - Get Users Suggest
+  x-api-slug: userssuggest-get
+  description: Suggest users
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/data-gov/userssuggest-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/data-gov/userssuggest-get-openapi.md
+- name: Data.gov API - Get Datasets Suggest
+  x-api-slug: datasetssuggest-get
+  description: Suggest datasets
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/data-gov/datasetssuggest-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/data-gov/datasetssuggest-get-openapi.md
+- name: Data.gov API - Get Datasets Suggest Formats
+  x-api-slug: datasetssuggestformats-get
+  description: Suggest file formats
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/data-gov/datasetssuggestformats-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/data-gov/datasetssuggestformats-get-openapi.md
+- name: Data.gov API - Get Organizations Suggest
+  x-api-slug: organizationssuggest-get
+  description: Suggest organizations
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/data-gov/organizationssuggest-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/data-gov/organizationssuggest-get-openapi.md
+- name: Data.gov API - Get Reuses Suggest
+  x-api-slug: reusessuggest-get
+  description: Suggest reuses
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/data-gov/reusessuggest-get-openapi.md
+- name: Data.gov API - Get Spatial Zones Suggest
+  x-api-slug: spatialzonessuggest-get
+  description: Suggest geospatial zones
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/data-gov/spatialzonessuggest-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/data-gov/spatialzonessuggest-get-openapi.md
+- name: Data.gov API - Get Tags Suggest
+  x-api-slug: tagssuggest-get
+  description: Suggest tags
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/data-gov/tagssuggest-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/data-gov/tagssuggest-get-openapi.md
+- name: Data.gov API - Get Territory Suggest
+  x-api-slug: territorysuggest-get
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/data-gov/territorysuggest-get-openapi.md
 - name: Data.gov API - Get Users Suggest
   x-api-slug: userssuggest-get
   description: Suggest users

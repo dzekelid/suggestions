@@ -8,11 +8,39 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "37688"
 tags: Suggestions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/tradestation/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Tradestation API - Suggest Symbols
+  x-api-slug: datasymbolssuggesttext-get
+  description: |-
+    Suggests symbols semantically based upon partial input of symbol name,
+    company name, or description
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tradestation_logo_285x40.png
+  humanURL: http://www.tradestation.com
+  baseURL: https://api.tradestation.com//v2
+  tags: Technology, Financial Services, Financial, General Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/tradestation/datasymbolssuggesttext-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/tradestation/datasymbolssuggesttext-get-openapi.md
+- name: Tradestation API - Suggest Symbols
+  x-api-slug: datasymbolssuggesttext-get
+  description: |-
+    Suggests symbols semantically based upon partial input of symbol name,
+    company name, or description
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tradestation_logo_285x40.png
+  humanURL: http://www.tradestation.com
+  baseURL: https://api.tradestation.com//v2
+  tags: Technology, Financial Services, Financial, General Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/tradestation/datasymbolssuggesttext-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/tradestation/datasymbolssuggesttext-get-openapi.md
 - name: Tradestation API - Suggest Symbols
   x-api-slug: datasymbolssuggesttext-get
   description: |-

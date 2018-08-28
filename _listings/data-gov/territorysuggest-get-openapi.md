@@ -3,8 +3,8 @@ swagger: "2.0"
 x-collection-name: Data.Gov
 x-complete: 0
 info:
-  title: Data.gov API Get Tags Suggest
-  description: Suggest tags
+  title: Data.gov API Get Territory Suggest
+  description: ""
   version: "3"
 host: catalog.data.gov
 basePath: /api/3/

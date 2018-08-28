@@ -9,11 +9,63 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-boti
 x-kinRank: "7"
 x-alexaRank: "274018"
 tags: Suggestions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/botify/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Botify - Parameters Analyses Username Project Slug Analysis Slug Urls Suggested
+    Filters
+  x-api-slug: analysesusernameproject-sluganalysis-slugurlssuggested-filters-parameters
+  description: Parameters analyses username project slug analysis slug urls suggested
+    filters.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg
+  humanURL: http://www.botify.com
+  baseURL: https://api.botify.com//v1
+  tags: SaaS, Technology, Enterprise, internet, Bots, Search, API Provider, API Service
+    Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/botify/analysesusernameproject-sluganalysis-slugurlssuggested-filters-parameters-openapi.md
+- name: Botify - Post Analyses Username Project Slug Analysis Slug Urls Suggested
+    Filters
+  x-api-slug: analysesusernameproject-sluganalysis-slugurlssuggested-filters-post
+  description: Return most frequent segments (= suggested patterns in the previous
+    version) for a Botify Query.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg
+  humanURL: http://www.botify.com
+  baseURL: https://api.botify.com//v1
+  tags: SaaS, Technology, Enterprise, internet, Bots, Search, API Provider, API Service
+    Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/botify/analysesusernameproject-sluganalysis-slugurlssuggested-filters-post-openapi.md
+- name: Botify - Parameters Analyses Username Project Slug Analysis Slug Urls Suggested
+    Filters
+  x-api-slug: analysesusernameproject-sluganalysis-slugurlssuggested-filters-parameters
+  description: Parameters analyses username project slug analysis slug urls suggested
+    filters.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg
+  humanURL: http://www.botify.com
+  baseURL: https://api.botify.com//v1
+  tags: SaaS, Technology, Enterprise, internet, Bots, Search, API Provider, API Service
+    Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/botify/analysesusernameproject-sluganalysis-slugurlssuggested-filters-parameters-openapi.md
+- name: Botify - Post Analyses Username Project Slug Analysis Slug Urls Suggested
+    Filters
+  x-api-slug: analysesusernameproject-sluganalysis-slugurlssuggested-filters-post
+  description: Return most frequent segments (= suggested patterns in the previous
+    version) for a Botify Query.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg
+  humanURL: http://www.botify.com
+  baseURL: https://api.botify.com//v1
+  tags: SaaS, Technology, Enterprise, internet, Bots, Search, API Provider, API Service
+    Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/suggestions/master/_listings/botify/analysesusernameproject-sluganalysis-slugurlssuggested-filters-post-openapi.md
 x-common:
 - type: x-website
   url: http://www.botify.com

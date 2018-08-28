@@ -65,6 +65,41 @@ paths:
       tags:
       - Lists
       - Suggesttip
+  /venues/suggestcompletion:
+    get:
+      summary: Get Venues Suggestcompletion
+      description: /venues/search
+      operationId: venuessearch
+      x-api-path-slug: venuessuggestcompletion-get
+      parameters:
+      - in: query
+        name: alt
+        description: Altitude of the users location, in meters
+      - in: query
+        name: altAcc
+        description: Accuracy of the users altitude, in meters
+      - in: query
+        name: limit
+        description: Number of results to return, up to 100
+      - in: query
+        name: ll
+        description: Latitude and longitude of the users location
+      - in: query
+        name: llAcc
+        description: Accuracy of latitude and longitude, in meters
+      - in: query
+        name: query
+        description: A search term to be applied against titles
+      - in: query
+        name: v
+        description: All requests now accept a v=YYYYMMDD param, which indicates that
+          the client is up to date as of the specified date
+      responses:
+        200:
+          description: OK
+      tags:
+      - Venues
+      - Suggestcompletion
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
